@@ -3,9 +3,9 @@ MAINTAINER Fábio Luciano <fabioluciano@php.net>
 LABEL Description="Alpine Image with jdk installed"
 
 # Set some variables to continue with the build process
-ENV JAVA_VERSION=8 \
-  JAVA_UPDATE=102 \
-  JAVA_BUILD=14 \
+ENV JAVA_VERSION=7 \
+  JAVA_UPDATE=79 \
+  JAVA_BUILD=15 \
   JAVA_HOME="/usr/lib/jvm/" \
   URL_FRAGMENT="http://download.oracle.com/otn-pub/java/jdk/"
 ENV JOINED_VERSION="${JAVA_VERSION}u${JAVA_UPDATE}"
